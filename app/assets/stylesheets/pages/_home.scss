@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .main {
@@ -32,6 +32,7 @@ ul {
   padding: 30px 0;
   overflow: hidden;
   text-align: center;
+  height: 120px;
 }
 
 li {
@@ -49,6 +50,6 @@ li a {
     color: $black;
     text-decoration: none;
     border-bottom: 3px solid $black;
+    transition: .1s ease-in-out;
   }
 }
-
