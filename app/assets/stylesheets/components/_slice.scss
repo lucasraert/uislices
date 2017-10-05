@@ -115,5 +115,14 @@
     .colors {
       justify-content: between;
       margin-right: 20px;
+      // justify-content: start;
+    }
+    .color {
+      flex-basis: 30%;
+    }
+}
+@media (max-width: 580px) {
+    .color {
+      flex-basis: 45%;
     }
 }
