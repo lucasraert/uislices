@@ -13,8 +13,11 @@
   font-weight: bolder;
   margin-bottom: 30px;
 }
+.elements-container {
+  width: 600px;
+}
 .slice-screen {
-  width: 60%;
+  width: 100%;
   padding: 20px;
 }
 .slice-elements {
@@ -81,6 +84,9 @@
   margin-bottom: 0px;
   font-weight: bolder;
 }
+.cp_embed_wrapper {
+  width: 450px;
+}
 @media (max-width: 900px) {
     .slice-content {
       flex-direction: column;
@@ -89,4 +95,10 @@
     .slice-elements {
       padding: 20px 0;
     }
+    .elements-container {
+      width: 100%;
+    }
+    .cp_embed_wrapper {
+  width: 90%;
+}
 }
