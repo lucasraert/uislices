@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin: 80px 0px;
+  background-position: center;
 }
 .slice-content {
   display: flex;
@@ -23,6 +24,7 @@
 .slice-elements {
   padding: 0 0 0 50px;
   width: 100%;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,8 +35,9 @@
 .colors {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
   margin-bottom: 20px;
+  align-items: center;
 }
 .color {
   width: 150px;
@@ -56,11 +59,13 @@
 .hex-color{
   font-size: 10px;
   margin-bottom: 0;
+  margin-left: 5px;
   color: rgb(180, 180, 180)
 }
 .rgb-color {
   font-size: 10px;
   margin-bottom: 0;
+  margin-left: 5px;
   color: rgb(180, 180, 180)
 }
 .slice-element-title {
@@ -87,18 +92,28 @@
 .cp_embed_wrapper {
   width: 450px;
 }
-@media (max-width: 900px) {
+@media (max-width: 980px) {
     .slice-content {
       flex-direction: column;
-      width: 400px;
+      // width: 400px;
     }
     .slice-elements {
       padding: 20px 0;
+      display: block;
+      margin: 0 20px;
     }
     .elements-container {
       width: 100%;
+      display: block;
+      margin: 0 auto;
     }
     .cp_embed_wrapper {
-  width: 90%;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    }
+    .colors {
+      justify-content: between;
+      margin-right: 20px;
     }
 }
