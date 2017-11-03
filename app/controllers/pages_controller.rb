@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def navbar
   end
 
-  def menu
+  def search
   end
 
   def form

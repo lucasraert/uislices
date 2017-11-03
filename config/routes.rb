@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'navbar', to: 'pages#navbar'
   get 'buttons', to: 'pages#buttons'
   get 'form', to: 'pages#form'
-  get 'menu', to: 'pages#menu'
+  get 'search', to: 'pages#search'
   get 'card', to: 'pages#card'
 
 
