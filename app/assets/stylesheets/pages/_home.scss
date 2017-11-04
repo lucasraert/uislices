@@ -1,13 +1,12 @@
 // Specific CSS for your home-page
 body {
-  background: #FFF;
+  background: #F2F5FB;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 20px;
   letter-spacing: -.005em;
   margin: 0;
-  padding-top: 20px;
 }
 
 h4 {
@@ -23,29 +22,40 @@ h4 {
   margin: auto;
 }
 
-header {
+nav {
   display: flex;
-  align-items: center;
+  justify-content: center;
   color: $black;
-  margin-left: 25px;
+  height: 200px;
+  background: #FFF;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.15);
+
   img {
-    max-width: 120px;
+    max-width: 80px;
   }
 }
 
+.title {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
 .description {
-  padding: 30px 0;
-  width: 400px;
-  margin-left: 30px;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul {
   list-style-type: none;
   color: $black;
-  margin-left: 30px;
   padding: 30px 0;
   overflow: hidden;
   height: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 li {
@@ -55,14 +65,20 @@ li {
 li a {
   display: block;
   color: $black;
+  font-size: 16px;
   text-align: center;
   margin: 0 16px;
-  padding: 16px 0px 2px;
+  padding: 3px 12px;
   text-decoration: none;
   &:hover {
+    border-radius: 80px;
+    background: black;
+    color: #FFF;
     color: $black;
     text-decoration: none;
-    border-bottom: 3px solid $black;
+    background: black;
+    border-radius: 4px;
+    color: #FFF;
     transition: .1s ease-in-out;
   }
 }
