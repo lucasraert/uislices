@@ -88,9 +88,9 @@
   margin-bottom: 0px;
   font-weight: bolder;
 }
-.cp_embed_wrapper {
-  width: 450px;
-}
+// .cp_embed_wrapper {
+//   width: 450px;
+// }
 .slice-space{
   margin: 30px;
 }
@@ -128,3 +128,24 @@
       flex-basis: 45%;
     }
 }
+
+
+
+
+.cp_embed_wrapper {
+  /* required for resize to work */
+  overflow: hidden;
+
+  /* make resizeble! */
+  resize: both;
+
+  /* required to see the handle */
+  background: white;
+  padding-bottom: 10px;
+
+  /* default height */
+  // height: 400px;
+}
+// .cp_embed_wrapper iframe {
+//   height: 100% !important;
+// }
